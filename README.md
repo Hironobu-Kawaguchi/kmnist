@@ -5,8 +5,9 @@ https://github.com/rois-codh/kmnist
 http://codh.rois.ac.jp/kmnist/
 
 
+
 |Model                            | MNIST | Kuzushiji-MNIST | Credit
-|---------------------------------|-------|--------|-----|---|
+|---------------------------------|-------|--------|---|
 |[4-Nearest Neighbour Baseline](benchmarks/kuzushiji_mnist_knn.py)     |97.14% | 91.56% | 
 |[Tuned SVM (RBF kernel)](https://github.com/rois-codh/kmnist/issues/3) | 98.57% |  | [TomZephire](https://github.com/TomZephire)
 |[Keras Simple CNN Benchmark](benchmarks/kuzushiji_mnist_cnn.py)       |99.06% | 95.12% |
