@@ -7,6 +7,7 @@ from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 import numpy as np
+import os
 
 batch_size = 128
 num_classes = 10
@@ -19,10 +20,11 @@ def load(f):
     return np.load(f)['arr_0']
 
 # Load the data
-x_train = load('kmnist-train-imgs.npz')
-x_test = load('kmnist-test-imgs.npz')
-y_train = load('kmnist-train-labels.npz')
-y_test = load('kmnist-test-labels.npz')
+path = '../input'
+x_train = load(os.path.join(path, 'kmnist-train-imgs.npz'))
+x_test = load(os.path.join(path, 'kmnist-test-imgs.npz'))
+y_train = load(os.path.join(path, 'kmnist-train-labels.npz'))
+y_test = load(os.path.join(path, 'kmnist-test-labels.npz'))
 
 if K.image_data_format() == 'channels_first':
     x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)

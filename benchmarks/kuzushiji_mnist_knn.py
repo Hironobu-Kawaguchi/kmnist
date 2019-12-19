@@ -3,15 +3,17 @@
 
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
+import os
 
 def load(f):
     return np.load(f)['arr_0']
 
 # Load the data
-x_train = load('kmnist-train-imgs.npz')
-x_test = load('kmnist-test-imgs.npz')
-y_train = load('kmnist-train-labels.npz')
-y_test = load('kmnist-test-labels.npz')
+path = '../input'
+x_train = load(os.path.join(path, 'kmnist-train-imgs.npz'))
+x_test = load(os.path.join(path, 'kmnist-test-imgs.npz'))
+y_train = load(os.path.join(path, 'kmnist-train-labels.npz'))
+y_test = load(os.path.join(path, 'kmnist-test-labels.npz'))
 
 # Flatten images
 x_train = x_train.reshape(-1, 784)
