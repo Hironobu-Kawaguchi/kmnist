@@ -6,14 +6,14 @@ http://codh.rois.ac.jp/kmnist/
 
 
 
-|Model                            | MNIST | Kuzushiji-MNIST | Memo
-|---------------------------------|-------|--------|---|
-|[4-Nearest Neighbour Baseline](benchmarks/kuzushiji_mnist_knn.py) |97.14% | 91.56% | 
-|[Keras Simple CNN Benchmark](benchmarks/kuzushiji_mnist_cnn.py)   |99.06% | 95.12% |
-|[PyTorch Simple CNN](code/kuzushiji_mnist_pytorch.py)             |99.10% | 95.02% |
-|PyTorch ResNet18                                                  |       | 95.43% |
-|PyTorch ResNet50                                                  |       | 38.14% |
-|PyTorch resnext50_32x4d                                           |       | 19.27% |
+|Model                            | Kuzushiji-MNIST | Memo
+|---------------------------------|--------|---|
+|[4-Nearest Neighbour Baseline](benchmarks/kuzushiji_mnist_knn.py)       | 91.56% | 
+|[Keras Simple CNN Benchmark](benchmarks/kuzushiji_mnist_cnn.py)         | 95.12% |
+|[PyTorch Simple CNN](colab_kmnist_pytorch_cnn_2.ipynb)                  | 95.14% |
+|[PyTorch ResNet18](colab_kmnist_pytorch_resnet18.ipynb)                 | 97.27% |
+|[PyTorch ResNet50](colab_kmnist_pytorch_resnet50_2.ipynb)               | 97.45% |
+|[PyTorch resnext50_32x4d](colab_kmnist_pytorch_resnext50_32x4d-2.ipynb) | 97.45% |
 
 
 Environment (Google Colaboratory)
