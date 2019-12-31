@@ -13,7 +13,7 @@ http://codh.rois.ac.jp/kmnist/
 |[PyTorch Simple CNN](colab_kmnist_pytorch_cnn_2.ipynb)                  | 95.14% |
 |[PyTorch ResNet18](colab_kmnist_pytorch_resnet18.ipynb)                 | 97.27% |
 |[PyTorch ResNet50](colab_kmnist_pytorch_resnet50_2.ipynb)               | 97.45% |
-|[PyTorch resnext50_32x4d](colab_kmnist_pytorch_resnext50_32x4d-2.ipynb) | 97.45% |
+|[PyTorch resnext50_32x4d](colab_kmnist_pytorch_resnext50_32x4d_2.ipynb) | 97.45% |
 
 
 Environment (Google Colaboratory)
