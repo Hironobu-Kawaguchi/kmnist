@@ -12,6 +12,8 @@ http://codh.rois.ac.jp/kmnist/
 |[Keras Simple CNN Benchmark](benchmarks/kuzushiji_mnist_cnn.py)   |99.06% | 95.12% |
 |[PyTorch Simple CNN](code/kuzushiji_mnist_pytorch.py)             |99.10% | 95.02% |
 |PyTorch ResNet18                                                  |       | 95.43% |
+|PyTorch ResNet50                                                  |       | 38.14% |
+|PyTorch resnext50_32x4d                                           |       | 19.27% |
 
 
 Environment (Google Colaboratory)
