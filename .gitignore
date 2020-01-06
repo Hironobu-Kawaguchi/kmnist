@@ -132,6 +132,5 @@ dmypy.json
 .vscode/
 data/
 *.pt
-code/
-code-analysis/
+code-analysis/sample_data
 input/
